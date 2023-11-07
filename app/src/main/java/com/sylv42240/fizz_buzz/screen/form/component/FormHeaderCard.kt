@@ -14,7 +14,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import com.sylv42240.fizz_buzz.R
+import com.sylv42240.fizz_buzz.shared.theme.FizzBuzzTheme
 
 @Composable
 fun FormHeaderCard(isVisible: Boolean, onDismiss: () -> Unit) {
@@ -39,5 +41,13 @@ fun FormHeaderCard(isVisible: Boolean, onDismiss: () -> Unit) {
                 style = MaterialTheme.typography.bodyLarge
             )
         }
+    }
+}
+
+@Preview
+@Composable
+private fun FormHeaderCard_Preview() {
+    FizzBuzzTheme {
+        FormHeaderCard(isVisible = true, onDismiss = {})
     }
 }

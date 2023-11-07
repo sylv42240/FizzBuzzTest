@@ -25,7 +25,6 @@ class FizzBuzzListViewModel @Inject constructor(private val readFormUseCase: Rea
                 .onFailure { _ ->
                     onError()
                 }
-
         }
     }
 

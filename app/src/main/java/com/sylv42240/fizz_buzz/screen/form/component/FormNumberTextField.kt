@@ -43,7 +43,6 @@ fun FormNumberTextField(
                     onValueChange(it)
                 }
             }
-
         },
         modifier = Modifier
             .fillMaxWidth()
@@ -82,6 +81,7 @@ fun FormNumberTextField_Preview() {
             label = "First number",
             value = "1",
             focusManager = LocalFocusManager.current,
-            onValueChange = {})
+            onValueChange = {}
+        )
     }
 }

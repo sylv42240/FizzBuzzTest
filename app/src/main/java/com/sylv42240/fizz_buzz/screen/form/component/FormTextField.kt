@@ -76,6 +76,7 @@ fun FormTextField_Preview() {
             label = "First word",
             value = "Example",
             focusManager = LocalFocusManager.current,
-            onValueChange = {})
+            onValueChange = {}
+        )
     }
 }
