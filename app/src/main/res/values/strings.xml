@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fizz-Buzz</string>
+
+    <string name="general_error">An error occurred</string>
+
+    <!-- Form Screen -->
+    <string name="submit_button_text">Submit</string>
+
+    <string name="text_field_first_word_label">First word</string>
+    <string name="text_field_second_word_label">Second word</string>
+    <string name="text_field_first_number_label">First number</string>
+    <string name="text_field_second_number_label">Second number</string>
+
+    <string name="form_card_title">How it works ?</string>
+    <string name="form_card_message">Enter two numbers between 1 and 100 and two words of less than 10 characters.</string>
+</resources>
